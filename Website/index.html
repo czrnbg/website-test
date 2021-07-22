@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🪐 Un blog à propos de Mars</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="logo">Mars, et ses lunes</h1>
+        </header>
+        
+        <nav>
+            <div id="root">
+                <div id="topnav" class="topnav">
+                    <a id="home_link" class="topnav_link" href="/">Menu</a>
+                      
+                    <nav role="navigation" id="topnav_menu">
+                        <a class="topnav_link" href="https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)">Mars</a>
+                        <a class="topnav_link" href="https://fr.wikipedia.org/wiki/Phobos_(lune)">Phobos</a>
+                        <a class="topnav_link" href="https://fr.wikipedia.org/wiki/D%C3%A9imos_(lune)">Deimos</a>
+                        <a class="topnav_link" href="mailto:przydatekyouri@gmail.com">Me contacter</a>
+                    </nav>
+                      
+                    <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                      
+                    <nav role="navigation" id="topnav_responsive_menu">
+                        <ul>
+                            <li><a href="/">Menu</a></li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)">Mars</a></li>
+                            <li><a href="https://fr.wikipedia.org/wiki/Phobos_(lune)">Phobos</a></li>
+                            <li><a href="https://fr.wikipedia.org/wiki/D%C3%A9imos_(lune)">Deimos</a></li>
+                            <li><a href="mailto:przydatekyouri@gmail.com">Me contacter</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="section">
+                <div class="col span_2_of_3">
+                    <div class="blog-post">
+                        <h1 class="blog-title">Des images de Mars en 4K !</h1>
+                        <h2 class="date">Incroyable...</h2>
+                        <div class="video-responsive">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEyAs3NWH4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+            
+                        <p class="blog-content"></p>
+                    </div>
+            
+                    <div class="blog-post">
+                        <h1 class="blog-title">Phobos lors d'une éclipse !</h1>
+                        <h2 class="date">Epoustouflant...</h2>
+                        <img src="img/img4.jpg">
+                        <p class="blog-content">Minuscule, rainurée et vouée à une fin prochaine, Phobos l’une des deux lunes martiennes, a été à nouveau photographiée par la sonde Mars Odyssey. L’engin tourne autour de Mars depuis 2001 et fêtera l’année prochaine, si tout va bien, son 20ème anniversaire en orbite.
+                          Pendant la plus grande partie de son séjour martien, <a class="blog-link" href="https://www.sciencesetavenir.fr/espace/systeme-solaire/mars-odyssey-revele-les-deux-lunes-de-mars-phobos-et-deimos_121574" target="_blank">Mars Odyssey</a> a gardé ses instruments scientifiques braqués sur le sol martien dont elle a étudié la composition. Mais jugeant qu’elle avait largement rempli sa mission, la Nasa a depuis trois ans mis en place une manœuvre (un peu risquée) de retournement permettant à la sonde de modifier son axe de visée de 180° pour lui donner la possibilité d'observer de nouvelles choses. Ce qu'elle a fait en septembre 2017, pour la première fois, quand elle a été pointée sur Phobos, la plus grosse des deux lunes martiennes.</p>
+                    </div>
+    
+                    <div class="blog-post">
+                        <h1 class="blog-title">L'origine des lunes !</h1>
+                        <h2 class="date">Ce n'est encore qu'une théorie...</h2>
+                        <p class="blog-content">Deux théories s'opposent pour expliquer la présence de Phobos, et de sa consœur Deimos, autour de Mars. La première estime que les deux satellites sont deux astéroïdes capturés dans le champ de gravitation de Mars. L'autre soutient qu'elles sont le reliquat d'un impact géant qui a expulsé de la matière martienne en orbite quelques centaines de millions d'années après la formation de la planète. Cette dernière hypothèse semble actuellement recueillir le suffrage de la communauté scientifique <a class="blog-link" href="https://www.sciencesetavenir.fr/espace/astrophysique/mars-ses-2-lunes-phobos-et-deimos-seraient-nees-d-un-impact-avec-une-autre-planete_101854" target="_blank"><span>depuis la publication de deux solides études en 2016.</span></a>
+                        Les images de THEMIS apportent un peu plus de renseignements aux chercheurs puisqu’elles révèlent que la surface de Phobos est relativement uniforme et constituée de matériaux à grain très fin qui semble être principalement basaltique. Mais pour trancher définitivement le débat, il faudra analyser des échantillons de sol prélevés directement sur place. Ce que devrait faire <a class="blog-link" href="https://www.sciencesetavenir.fr/espace/astrophysique/la-france-et-le-japon-signe-une-mission-de-retour-d-echantillon-d-une-lune-martienne-phobos_112122" target="_blank">la mission Japonaise MMX</a> (pour Mars Moons Exploration) qui ambitionne de ramener sur Terre, en 2027, une centaine de grammes de poussière du sol de Phobos.</p>
+                    </div>
+                </div>
+                    
+                <aside class="col span_1_of_3">
+                    <div class="side-post">
+                        <!-- Le slideshow -->
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="img/img1.jpg" style="width:100%">
+                                <div class="text">Mars</div>
+                            </div>
+                                    
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="img/img2.jpg" style="width:100%">
+                                <div class="text">Phobos</div>
+                            </div>
+                                    
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="img/img3.jpg" style="width:100%">
+                                <div class="text">Deimos</div>
+                            </div>
+                                    
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-gray">
+                <div class="footer-custom">
+                    <div class="footer-lists">
+                    </div>
+                <!--/.footer-lists-->
+                <div class="footer-email">
+                    <h6 class="ftr-hdr">Curieux ?</h6>
+                    <div id="ftr-email" class="ftr-email-form">
+                        <form id="ftrEmailForm" method="post">
+                            <div class="error">Entrez une adresse mail valide</div>
+                            <input type="text" name="email_address_" id="ftrEmailInput" class="input" placeholder="Entrez votre adresse mail" />
+                            <input type="submit" class="button" value="Valider" />
+                        </form>
+                    </div>
+                    <div class="ftr-email-privacy-policy"></div>
+                </div>
+                <!--/.footer-email-->
+                
+                <!--/.footer-social-->
+                <div class="footer-legal">
+                    <p>&copy; Blogmars.com est avant tout un projet personnel.</p>
+                    <p>Fait par Youri Przydatek.</p>
+                    <p>Les photos, vidéos, et textes sur cette page ne m'appartiennent pas.</p>
+                  
+                    <button onclick="setTimeout(leJeu, 2000)">Coucou</button>
+                </div>
+                <!--/.footer-legal-->
+              
+                <!--/.footer-payment-->
+              </div>
+              <!--/.footer-custom-->
+            </div>
+            <!--/.footer-gray-->
+          </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
