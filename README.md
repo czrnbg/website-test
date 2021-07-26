@@ -1,4 +1,4 @@
-Premier essai d'un site web
+Premier essai d'un site web, fait en formation
 
 Utilisation de Bootstrap et CodePen.io
 
